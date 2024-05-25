@@ -1,0 +1,21 @@
+.message {
+  &:hover {
+    .deleteIcon {
+      display: inline-flex;
+    }
+  }
+}
+
+.messageList {
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 4px;
+  }
+}

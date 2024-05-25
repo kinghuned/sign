@@ -1,0 +1,7 @@
+$primary-color: rgb(25, 103, 210);
+$primary-color-active: rgb(25, 103, 210, 0.08);
+
+:export {
+  primaryColor: $primary-color;
+  primaryColorActive: $primary-color-active;
+}
